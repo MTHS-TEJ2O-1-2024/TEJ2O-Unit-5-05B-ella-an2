@@ -38,3 +38,10 @@ while True:
     np.show()
 
     sleep(1)
+
+    # turn it all off
+    np[0] = (0, 0, 0)
+    np[1] = (0, 0, 0)
+    np[2] = (0, 0, 0)
+    np[3] = (0, 0, 0)
+    np.show()
